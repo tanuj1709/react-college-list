@@ -1,0 +1,11 @@
+#gallery-2{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	justify-content: space-around;
+	margin-top: 2em;
+}
+.gallery-img{
+	width: 15vw;
+	height: auto;
+}
+

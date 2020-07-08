@@ -1,0 +1,28 @@
+blockquote {
+  background-color: #f9e0ec;
+  margin: 1.5em 0 1.5em 0;
+  padding: 0.5em;
+  content: "\201C";
+  font-size:2em;
+  position: relative;
+}
+blockquote::before {
+  color: #7a1b38;
+  content: open-quote;
+  font-size: 7em;
+  position: absolute;
+  top: -0.2em;
+}
+blockquote p {
+  display: inline;
+  margin-left: 2em;
+  color: #219bc3;
+  font-size: 1.5em;
+}
+#author{
+   color: #7a1b38;
+}
+#author::before{
+  content:' - ';
+  margin-left: 4em;
+}

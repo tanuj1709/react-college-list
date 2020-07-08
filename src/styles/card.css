@@ -1,0 +1,92 @@
+.card{
+	display: grid;
+	grid-template-columns: 1fr;/*single column division*/
+	justify-content: center;
+	background-color: transparent;
+	padding:0;
+	margin: 0;
+	margin-left: 1em;
+	margin-bottom: 2em;
+	box-shadow: 0 0 6px 0px black;
+}
+.card-img{
+	height: auto;
+	width: 20vw;
+}
+@media screen and (min-width: 900px){
+	.card{
+		width: 80%;/*when in normal screen*/
+	}
+}
+.card-caption{
+	text-align: right;
+	font-size:1em;
+	font-family: 'Playfair Display', serif;
+	margin-top: -2em;
+	margin-right: 1em;
+}
+.content-header{
+	margin: 0 0 0 1.2em;
+    font-size: 1em;
+    color: #7a1b38;
+}
+.content-body{
+	padding: 0 1em 0 1em;
+    text-align: justify;
+    font-size: 1.2em;
+    color: black;
+    margin: 0.5em 0 0.5em 0;
+    font-weight: 600;
+}
+
+.content-button{
+	padding: 0.5em;
+    background-color: #7a1b38;
+    margin: 0 0 0.5em 1em;
+    border-radius: 2em;
+    border: none;
+    color:#f9e0ec;
+}
+
+.figure-margin{
+	margin: 0;
+}
+
+.college-name-star-rating{
+	display: flex;
+	font-size: medium;
+}
+
+.near-place{
+	font-size: small;
+}
+
+.near-place .discount{
+	width: 88%;
+	text-align: end;
+}
+
+.near-place .features{
+	width: 88%;
+	text-align: end;
+	border: 10px;
+	border-radius: 10px;
+	margin-top: 1em;
+}
+
+.fees-discounts{
+	text-align: end;
+	width: 35%;
+}
+
+.fees-discounts .fees{
+	text-decoration: line-through;
+}
+
+.fees-discounts .discounts{
+	font-size: x-small;
+}
+
+.ranking{
+	color: whitesmoke;
+}
